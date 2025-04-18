@@ -6,7 +6,7 @@ public class Customer
    private String cname;
    private String address;
    
-   public Customer()
+   public Customer() 
    {
 	   
    }
