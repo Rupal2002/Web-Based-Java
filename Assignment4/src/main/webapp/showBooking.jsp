@@ -23,6 +23,10 @@
          flightId <%=booking.getFlightId() %>
          bookingDate <%=booking.getBookingDate() %>
        </h1>
+       <form action="cancelBooking" method="post">
+        <input type="hidden" name="bookingId"  value=<%=booking.getId() %>>
+         <input type="submit" value="Cancel">
+       </form>
        
       <%
      } 
